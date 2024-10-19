@@ -9,7 +9,7 @@ const Home = () => {
   const [currentEmployee, setCurrentEmployee] = useState({ _id: null, firstname: "", lastname: "", age: "", qualification: "", email: "" });
 
   // Base URL for your backend
-  const baseURL = "http://localhost:3000"; 
+  const baseURL = "https://em-server-5d3x.onrender.com"; 
 
   // Fetch employees from the server
   useEffect(() => {
